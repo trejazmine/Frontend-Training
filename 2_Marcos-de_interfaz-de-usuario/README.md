@@ -20,11 +20,11 @@ Al igual que en un teléfono móvil, puedes usar una regla multimedia para estab
 **Punto de interrupción:** 
 Es el punto en el que el contenido y el diseño de un sitio web se adaptarán para ofrecer la mejor experiencia de usuario posible. 
 Un punto de interrupción puede funcionar de diferentes maneras en tres redes diferentes
-```markdown
+
 | Rejilla fija | Rejilla fluida | Rejilla hibrida |
-|--------------|--------------|--------------|
-| Columnas y márgenes flexibles | Contenido flexible que va de borde a borde según el tamaño de la pantalla |  ancho fluido   |
+|:---|:---: |---:|
+| Columnas y márgenes flexibles | Contenido flexible que va de borde a borde según el tamaño de la pantalla |  Ancho fluido   |
 | La cuadrícula fija tiene un contenido fijo que no cambia en un rango de puntos de interrupción específico, mientras que los márgenes flexibles ocupan el espacio restante de la pantalla    | Los pilares crecen o se contraen para adaptarse al espacio disponible | Son fijas con componentes |
-```
+
 ## Introduccion a React
 
