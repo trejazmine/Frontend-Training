@@ -23,8 +23,8 @@ Un punto de interrupción puede funcionar de diferentes maneras en tres redes di
 ```markdown
 | Rejilla fija | Rejilla fluida | Rejilla hibrida |
 |--------------|--------------|--------------|
-| Columnas y márgenes flexibles | Contenido flexible que va de borde a borde según el tamaño de la pantalla   |  ancho fluido   |
-| La cuadrícula fija tiene un contenido fijo que no cambia en un rango de puntos de interrupción específico, mientras que los márgenes flexibles ocupan el espacio restante de la pantalla    | los pilares crecen o se contraen para adaptarse al espacio disponible   | son fijas con componentes.  |
+| Columnas y márgenes flexibles | Contenido flexible que va de borde a borde según el tamaño de la pantalla |  ancho fluido   |
+| La cuadrícula fija tiene un contenido fijo que no cambia en un rango de puntos de interrupción específico, mientras que los márgenes flexibles ocupan el espacio restante de la pantalla    | Los pilares crecen o se contraen para adaptarse al espacio disponible | Son fijas con componentes |
 ```
 ## Introduccion a React
 
