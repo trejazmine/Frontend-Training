@@ -17,9 +17,9 @@ Por ejemplo, si desea que el fondo de su sitio web aparezca azul en una pantalla
 Al igual que en un teléfono móvil, puedes usar una regla multimedia para establecer el fondo en función del tamaño de la pantalla.
 - En el diseño responsivo, el valor de píxel especificado suele denominarse punto de interrupción.
 
-**Punto de interrupción:** 
-Es el punto en el que el contenido y el diseño de un sitio web se adaptarán para ofrecer la mejor experiencia de usuario posible. 
-Un punto de interrupción puede funcionar de diferentes maneras en tres redes diferentes
+**Punto de interrupción** 
+- Es el punto en el que el contenido y el diseño de un sitio web se adaptarán para ofrecer la mejor experiencia de usuario posible. 
+- Un punto de interrupción puede funcionar de diferentes maneras en tres redes diferentes:
 
 | Rejilla fija | Rejilla fluida | Rejilla hibrida |
 |---|--- |---|
