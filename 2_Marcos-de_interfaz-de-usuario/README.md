@@ -27,6 +27,9 @@ Al igual que en un teléfono móvil, puedes usar una regla multimedia para estab
 | La cuadrícula fija tiene un contenido fijo que no cambia en un rango de puntos de interrupción específico, mientras que los márgenes flexibles ocupan el espacio restante de la pantalla | Los pilares crecen o se contraen para adaptarse al espacio disponible | Son fijas con componentes |
 
 ## Bootstrap
+Bootstrap es una biblioteca de código CSS y JavaScript que facilita la construcción rápida de sitios web atractivos y responsivos. Ofrece componentes reutilizables y una rejilla responsive predefinida, simplificando el desarrollo web. Su popularidad se debe a su capacidad para ahorrar tiempo, permitiendo a los desarrolladores crear prototipos y sitios visualmente atractivos sin la necesidad de profundos conocimientos en CSS. Al aprender Bootstrap, se adquieren habilidades valiosas, asegurando consistencia en el diseño y facilitando la colaboración en equipos y proyectos. Su versatilidad y prevalencia en la industria lo convierten en una herramienta fundamental para potenciar las habilidades de desarrollo web.
+
+Bootstrap es una colección de trozos de código preescrito en CSS y JavaScript que le permite crear sitios web más rápidamente que si tuviera que crear cada trozo de código desde cero. 
 
 # 2. Introduccion a React
 
