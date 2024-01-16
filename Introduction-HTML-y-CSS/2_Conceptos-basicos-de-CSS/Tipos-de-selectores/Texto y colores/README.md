@@ -6,7 +6,8 @@ Los colores se utilizan, por ejemplo, en muchas propiedades CSS:
 ```css
 p { 
   color: blue; 
-}```
+}
+```
 
 A partir de la versión 3 de CSS, existen cinco formas principales de hacer referencia a un color.
 - Por valor RGB
