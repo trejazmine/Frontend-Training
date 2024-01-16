@@ -2,7 +2,7 @@
 En este módulo se aprenderá a utilizar el framework Bootstrap para construir interfaces responsivas y las ventajas de trabajar con frameworks de interfaz de usuario.
 # 1. Introduccion a los marcos y bibliotecas de interfaz de usuario
 ## Introducción al diseño responsivo
-**Diseño responsivo**
+### Diseño responsivo
 - El diseño responsivo significa que una página web puede estirarse o encogerse automáticamente según la pantalla en la que se muestre.
 - Es la combinación de tres técnicas: cuadrículas flexibles, imágenes fluidas y consultas multimedia.
 
