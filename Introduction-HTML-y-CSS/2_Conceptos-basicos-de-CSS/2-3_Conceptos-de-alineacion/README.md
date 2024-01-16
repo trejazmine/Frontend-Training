@@ -9,7 +9,7 @@ p {
 ```
 La alineación del texto puede establecerse enleft,right,center yjustify.
 
-La alineaciónjustify extiende el texto para que cada línea del texto tenga la misma anchura.
+La alineación justify extiende el texto para que cada línea del texto tenga la misma anchura.
 
 La alineación por defecto esleft para idiomas que son de izquierda a derecha como el inglés. Para las lenguas que van de derecha a izquierda, como el árabe, la alineación por defecto esright.
 
