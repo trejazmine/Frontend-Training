@@ -26,6 +26,7 @@ Cuando se utilizan valores RGB en CSS, se pueden definir utilizando la palabra c
 p { 
   color: rgb(255, 0, 0); 
 }
+```
 
 ### Valor RGBA
 RGBA es una extensión de RGB que añade un canal alfa (A). El canal alfa representa la opacidad, o transparencia, del color.
@@ -34,6 +35,7 @@ Al igual que el RGB, se especifica en CSS mediante la palabra clavergba:
 p { 
   color: rgba(255, 0, 0, 0.8); 
 }
+```
 
 ### Valor HSL
 HSL es un modelo de color más reciente definido como Tono (H), Saturación (S) y Luminosidad (L). El objetivo del modelo es simplificar la visualización mental del color que representa el valor.
@@ -42,4 +44,5 @@ Piense en un arco iris convertido en un círculo completo. Esto representa el Ma
 p { 
   color: rgba(255, 0, 0, 0.8); 
 }
+```
 ![Circulo arcoiris]([URL_de_la_imagen](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/6W-NFfelTF-vjRX3pXxfHw_71bfe705b84941a1b8f51eea05a848e1_text_color_hue.png?expiry=1705536000000&hmac=e2pCFN6asTQZpamgQNJAc6PpViII19Z90IHt9dSr2Js)https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/6W-NFfelTF-vjRX3pXxfHw_71bfe705b84941a1b8f51eea05a848e1_text_color_hue.png?expiry=1705536000000&hmac=e2pCFN6asTQZpamgQNJAc6PpViII19Z90IHt9dSr2Js)
