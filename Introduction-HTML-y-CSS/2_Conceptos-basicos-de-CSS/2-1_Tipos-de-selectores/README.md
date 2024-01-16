@@ -15,6 +15,7 @@ Seleccionar un elemento específico para estilizarlo
 ## SELECTORES DE CLASE 
 Selecciona elementos con el nombre de clase especificado 
 ```css
+.navigation { 
     margin: 2px;
   }
 ```
