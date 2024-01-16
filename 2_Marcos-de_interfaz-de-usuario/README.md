@@ -17,6 +17,14 @@ Por ejemplo, si desea que el fondo de su sitio web aparezca azul en una pantalla
 Al igual que en un teléfono móvil, puedes usar una regla multimedia para establecer el fondo en función del tamaño de la pantalla.
 - En el diseño responsivo, el valor de píxel especificado suele denominarse punto de interrupción.
 
-**Punto de interrupción:** Es el punto en el que el contenido y el diseño de un sitio web se adaptarán para ofrecer la mejor experiencia de usuario posible. 
+**Punto de interrupción:** 
+Es el punto en el que el contenido y el diseño de un sitio web se adaptarán para ofrecer la mejor experiencia de usuario posible. 
+Un punto de interrupción puede funcionar de diferentes maneras en tres redes diferentes
+```markdown
+| Rejilla fija | Rejilla fluida | Rejilla hibrida |
+|--------------|--------------|--------------|
+| Columnas y márgenes flexibles | Contenido flexible que va de borde a borde según el tamaño de la pantalla   |  ancho fluido   |
+| La cuadrícula fija tiene un contenido fijo que no cambia en un rango de puntos de interrupción específico, mientras que los márgenes flexibles ocupan el espacio restante de la pantalla    | los pilares crecen o se contraen para adaptarse al espacio disponible   | son fijas con componentes.  |
+```
 ## Introduccion a React
 
