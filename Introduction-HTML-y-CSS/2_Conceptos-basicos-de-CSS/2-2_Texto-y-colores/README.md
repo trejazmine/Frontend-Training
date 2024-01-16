@@ -1,5 +1,4 @@
 # Texto y color en CSS
-Cuando diseñe páginas web, trabajará mucho con colores y texto. Existen muchas formas diferentes de mostrar texto y otras tantas de definir los colores.
 Esta lectura cubre cómo funcionan el texto y el color en CSS.
 ## Color
 Los colores se utilizan, por ejemplo, en muchas propiedades CSS:
