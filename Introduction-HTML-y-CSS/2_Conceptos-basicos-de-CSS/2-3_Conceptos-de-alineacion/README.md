@@ -1,6 +1,5 @@
 # Conceptos básicos de alineación
-Exploremos cómo alinear texto y elementos HTML utilizando CSS.
-Centrémonos primero en la alineación horizontal. La alineación vertical es más difícil, así que la exploraremos más adelante.
+Explicacion de como alinear texto y elementos HTML utilizando CSS.
 ## Alineación de texto
 Alinear texto dentro de un elemento HTML es muy sencillo. Para ello, se utiliza la propiedad CSStext-align. En el siguiente ejemplo, la regla CSS está estableciendo que el texto de todos los elementos de párrafo esté alineado al centro.
 ```css
