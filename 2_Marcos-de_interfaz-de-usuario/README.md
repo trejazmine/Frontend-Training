@@ -5,6 +5,7 @@ En este módulo se aprenderá a utilizar el framework Bootstrap para construir i
 **Diseño responsivo**
 - El diseño responsivo significa que una página web puede estirarse o encogerse automáticamente según la pantalla en la que se muestre.
 - Es la combinación de tres técnicas: cuadrículas flexibles, imágenes fluidas y consultas multimedia.
+
 Por ejemplo, si desea que el fondo de su sitio web aparezca azul en una pantalla con un tamaño de pantalla inferior o igual a 700 píxeles.
 ```css
 @media only screen and (max-width: 700px) {
