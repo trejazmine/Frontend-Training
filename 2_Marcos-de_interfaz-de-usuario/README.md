@@ -127,8 +127,8 @@ Al igual que en un teléfono móvil, puedes usar una regla multimedia para estab
   </div>
   ```
   ##### e. Etiquetas flotantes
-    Ayudan a  proporcionar información del formulario al usuario como parte de la propia entrada. La información permanece visible si el usuario está interactuando con el elemento o si el elemento tiene contenido. Para ello:
-      1. Añada el input a un elemento `div`. En el elemento `div`, aplique las clases CSS `form-floating`.
+  Ayudan a  proporcionar información del formulario al usuario como parte de la propia entrada. La información permanece visible si el usuario está interactuando con el elemento o si el elemento tiene contenido. Para ello:
+    1. Añada el input a un elemento `div`. En el elemento `div`, aplique las clases CSS `form-floating`. 
     ```html
     <div class="form-floating">
       <input type="email" class="form-control" id="addressInput" placeholder="Address">
