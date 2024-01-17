@@ -46,21 +46,15 @@ Bootstrap es una colección de trozos de código preescrito en CSS y JavaScript 
     </div>
 </div>
 ```
-### 3. Rejilla Bootstrap
-El video destaca la importancia de la rejilla adaptable y los puntos de ruptura en el diseño responsivo de una página web, utilizando Bootstrap como herramienta. Bootstrap emplea un sistema de rejilla de 12 columnas que puede ser fluido o fijo, con un contenedor, filas y columnas como elementos clave.
-
-Se muestra en el ejemplo de la página web de Little Lemon cómo se pueden añadir columnas a una fila y ajustar su anchura mediante clases CSS. Además, se explora la flexibilidad de Bootstrap al permitir la configuración de diferentes disposiciones según el dispositivo, utilizando reglas CSS específicas del punto de ruptura. En este caso, se apilan las columnas en dispositivos móviles y se muestran una al lado de la otra en dispositivos de escritorio.
-
-Se destaca la eficacia del sistema de cuadrícula de Bootstrap para simplificar el desarrollo, ahorrando tiempo al adaptar automáticamente el contenido a diferentes dispositivos mediante sus reglas CSS y puntos de ruptura. La versatilidad del sistema de cuadrícula de Bootstrap lo posiciona como una herramienta poderosa y adecuada para la mayoría de las necesidades de desarrollo.
-
+### [3. Rejilla Bootstrap](https://github.com/trejazmine/Frontend-Training/tree/main/2_Marcos-de_interfaz-de-usuario/3_Rejillas)
 - El sistema de rejilla de bootstrap nos ayuda a crear diseños de páginas web a través de una serie de filas y columnas que albergan nuestro contenido.
 - Para la rejilla, bootstrap utiliza un sistema de rejilla de 12 columnas que puede ser fluido o fijo.
 - Siempre tiene un contenedor, filas y columnas (siempre comienza con el contenedor).
 - **El contenedor contiene almohadillas y alinea su contenido.**
 - Su anchura se determina en función del punto de ruptura responsive actual.
 ![Rejillas](https://github.com/trejazmine/Frontend-Training/blob/main/2_Marcos-de_interfaz-de-usuario/3_Rejillas/rejillas.png?raw=true)
-
-### 4. Componentes de Bootstrap
+- Bootstrap permite la configuración de diferentes disposiciones según el dispositivo, utilizando reglas CSS específicas del punto de ruptura.
+### [4. Componentes de Bootstrap](https://github.com/trejazmine/Frontend-Training/tree/main/2_Marcos-de_interfaz-de-usuario/4_Componentes)
 
 ### 5. Uso de la documentación de Bootstrap
 
