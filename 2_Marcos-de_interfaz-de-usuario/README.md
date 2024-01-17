@@ -136,7 +136,7 @@ Al igual que en un teléfono móvil, puedes usar una regla multimedia para estab
     </div>
     ```
 ### 6. Otros marcos y bibliotecas CSS
-[Foundation](https://get.foundation/),[Pure.css](https://purecss.io/),[Tailwind CSS](https://tailwindcss.com/), [UIKit](https://getuikit.com/) y [MVP.css]([UIKit](https://getuikit.com/))
+[Foundation](https://get.foundation/),[Pure.css](https://purecss.io/),[Tailwind CSS](https://tailwindcss.com/), [UIKit](https://getuikit.com/) y [MVP.css](https://andybrewer.github.io/mvp/)
 # 2. Introduccion a React
 
 ### 1. Contenidos estaticos y dinamicos
