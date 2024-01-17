@@ -32,36 +32,6 @@ Bootstrap es una biblioteca de código CSS y JavaScript que facilita la construc
 Bootstrap es una colección de trozos de código preescrito en CSS y JavaScript que le permite crear sitios web más rápidamente que si tuviera que crear cada trozo de código desde cero. 
 
 ### Primeros pasos en Bootstrap: [Archivo de ejemplo](https://github.com/trejazmine/Frontend-Training/tree/main/2_Marcos-de_interfaz-de-usuario/1_Primeros-pasos)
-```html
-<!DOCTYPE html>
-<htm1>
-    <head>
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-    <body>
-        <h1 id="header1">Chapter One</h1> <!-- selector ID utiliza el atributo id -->
-        <p>The first chapter</p>
-        <p class="introduction">Introduction</p>
-
-        <div id="blog"> <!-- selector ID utiliza el atributo id -->
-            <h1>Chapter Two</h1>
-            <div>
-              <h2>The second chapter</h2>
-              <p>First part</p>
-            </div>
-            <p>Subscribe for more news</p>
-            <a href="https://www.coursera.org/learn/introduction-to-front-end-development/supplement/mZboo/different-types-of-selectors">Click here</a>
-        </div>
-
-        <div>
-            <h1>Chapter Three</h1>
-            <p>The third chapter</p>
-        </div>
-
-    </body>
-</htmL>
-```
-
 
 # 2. Introduccion a React
 
