@@ -77,7 +77,18 @@ Bootstrap incluye un conjunto preconfeccionado de elementos de interfaz de usuar
 - `card-text`: Especifica el estilo para el texto de la tarjeta.
 
 ### 5. Uso de la documentación de Bootstrap
-
+Bootstrap incluye documentación detallada sobre la configuración y el uso de las funciones disponibles en su biblioteca.
+La documentación de Bootstrap está disponible actualmente en el siguiente [enlace](https://getbootstrap.com/docs).
+#### a. Interruptores
+Bootstrap incluye reglas CSS para dar estilo a los elementos de entrada de casilla de verificación como conmutadores. Para ello:
+  1. Añada lainput a un elementodiv. 
+  2. En el elementodiv, aplique las clases CSSform-check yform-switch. 
+  3. En el elementoinput, añada la clase CSSform-check-input.
+```html
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox">
+</div>
+```
 ### 6. Otros marcos y bibliotecas CSS
 
 # 2. Introduccion a React
