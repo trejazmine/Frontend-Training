@@ -31,7 +31,7 @@ Al igual que en un teléfono móvil, puedes usar una regla multimedia para estab
   Ofrece componentes reutilizables y una rejilla responsive predefinida, simplificando el desarrollo web. S
   Bootstrap es una colección de trozos de código preescrito en CSS y JavaScript que le permite crear sitios web más rápidamente que si tuviera que crear cada trozo de código desde cero. 
 
-### [1. Primeros pasos en Bootstrap:](https://github.com/trejazmine/Frontend-Training/tree/main/2_Marcos-de_interfaz-de-usuario/1_Primeros-pasos)
+### [1. Primeros pasos en Bootstrap](https://github.com/trejazmine/Frontend-Training/tree/main/2_Marcos-de_interfaz-de-usuario/1_Primeros-pasos)
 
 ### [2. Uso de los estilos de Bootstrap](https://github.com/trejazmine/Frontend-Training/tree/main/2_Marcos-de_interfaz-de-usuario/2_Uso-de-estilos)
   El video presenta la clase CSS de Bootstrap, destacando su utilidad para el diseño responsivo de sitios web. Se explica que no es necesario rediseñar el sitio para cada dispositivo, ya que Bootstrap ofrece clases y modificadores que facilitan la adaptación a diferentes tamaños de pantalla.
