@@ -39,6 +39,37 @@ Bootstrap es una colección de trozos de código preescrito en CSS y JavaScript 
 ![In-fixes](https://github.com/trejazmine/Frontend-Training/blob/main/2_Marcos-de_interfaz-de-usuario/2_Uso-de-estilos/in-fixes.png?raw=true)
 - Luego, se aborda el uso de modificadores a través de un ejemplo con una alerta. Se muestran diferentes clases de alerta, como primary, secondary, success, warning, danger, light, y dark, cada una con colores predefinidos. Se destaca la facilidad de cambiar el color de una alerta utilizando estos modificadores.
 - El video concluye resaltando la eficiencia de utilizar las clases y modificadores de Bootstrap para ahorrar tiempo en el desarrollo de sitios web responsivos.
+
+**Modifiers:** Primary, Secondary, Success, Info, Warning, Danger, Light, Dark
+```html
+<!DOCTYPE html>
+
+<html lang="es">  
+
+    <head>
+        <title>Little Lemon</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="alert alert-primary" role="alert">
+                        <!-- primary is the modifier -->
+                        A message.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.bundle.min.js"></script>
+
+        </script>
+    </body>
+</html>
+```
+
 ### 3. Rejilla Bootstrap
 
 ### 4. Componentes de Bootstrap
