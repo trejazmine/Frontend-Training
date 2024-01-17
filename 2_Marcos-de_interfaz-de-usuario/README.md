@@ -129,12 +129,12 @@ Al igual que en un teléfono móvil, puedes usar una regla multimedia para estab
   ##### e. Etiquetas flotantes
   Ayudan a  proporcionar información del formulario al usuario como parte de la propia entrada. La información permanece visible si el usuario está interactuando con el elemento o si el elemento tiene contenido. Para ello:
     1. Añada el input a un elemento `div`. En el elemento `div`, aplique las clases CSS `form-floating`. 
-    ```html
-    <div class="form-floating">
-      <input type="email" class="form-control" id="addressInput" placeholder="Address">
-      <label for="addressInput">Address</label>
-    </div>
-    ```
+  ```html
+  <div class="form-floating">
+    <input type="email" class="form-control" id="addressInput" placeholder="Address">
+    <label for="addressInput">Address</label>
+  </div>
+  ```
 ### 6. Otros marcos y bibliotecas CSS
 [Foundation](https://get.foundation/),[Pure.css](https://purecss.io/),[Tailwind CSS](https://tailwindcss.com/), [UIKit](https://getuikit.com/) y [MVP.css](https://andybrewer.github.io/mvp/)
 # 2. Introduccion a React
