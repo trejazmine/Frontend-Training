@@ -1,6 +1,6 @@
 # [Marcos de interfaz de usuario](https://github.com/trejazmine/Frontend-Training/tree/main/2_Marcos-de_interfaz-de-usuario)
   En este módulo se aprenderá a utilizar el framework Bootstrap para construir interfaces responsivas y las ventajas de trabajar con frameworks de interfaz de usuario.
-# 1. Introduccion a los marcos y bibliotecas de interfaz de usuario
+# 1. Introducción a los marcos y bibliotecas de interfaz de usuario
 ## Introducción al diseño responsivo
 ### Diseño responsivo
   El diseño responsivo significa que una página web puede estirarse o encogerse automáticamente según la pantalla en la que se muestre.
