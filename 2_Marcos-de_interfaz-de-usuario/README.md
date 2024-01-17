@@ -148,13 +148,23 @@ Al igual que en un teléfono móvil, puedes usar una regla multimedia para estab
 - Lo que realmente sucede es que el servidor web se comunica con otro tipo de servidor, llamado servidor de aplicaciones o servidor de respaldo. El servidor de aplicaciones genera el contenido dinámico que el servidor web envía al navegador del usuario. 
 - Los servidores de aplicaciones realizan un procesamiento más complejo que los servidores web.
 
-### 2. Aplicaciones de una sola página
+### 2. Aplicaciones de una sola página (SPA)
+- Es una forma de construir aplicaciones web que proporciona una experiencia de usuario más rápida y receptiva al actualizar solo el contenido necesario en lugar de cargar páginas web completas.
+- A diferencia de los sitios web tradicionales, donde cada clic genera una nueva solicitud al servidor para cargar una página completa, una SPA carga solo una página HTML inicial y actualiza dinámicamente su contenido a medida que el usuario interactúa con la aplicación
+- Una SPA tiene dos enfoques para servir el código y los recursos.
+  - El primero se denomina agrupación, y el segundo enfoque se conoce como .
+| Agrupación |  Carga perezosa o división del código |
+| --- | ---|
+| Cuando el navegador solicita la aplicación, el servidor devuelve y carga todo el HTML, CSS y JavaScript necesarios inmediatamente. | El navegador solicita la aplicación y el servidor devuelve sólo el mínimo HTML, CSS y JavaScript necesarios para cargar la aplicación. Los recursos adicionales se descargan según sea necesario. |
 
+- La elección entre estos enfoques depende de la complejidad y los requisitos de ancho de banda de la aplicación.
 ## REACT
-3. Que es React
+React es una biblioteca de JavaScript centrada en componentes, facilitando la construcción de interfaces de usuario para aplicaciones web y móviles. 
+- Los componentes son piezas reutilizables de interfaz de usuario que simplifican el desarrollo, prueba y mantenimiento del código.
 
 ### 1. Funcionamiento
-
+Los componentes de React tienen una relación uno a uno con elementos HTML en la página. 
+- React actualiza el DOM virtual y lo compara con la versión anterior del DOM virtual. Si se ha producido un cambio, sólo se actualiza ese elemento en el DOM del navegador. Los cambios en el DOM del navegador hacen que cambie la página web visualizada. 
 #### - DOM virtual
 
 ### 2. Jerarquia de componentes
