@@ -79,8 +79,18 @@ Bootstrap incluye un conjunto preconfeccionado de elementos de interfaz de usuar
 ### 5. Uso de la documentación de Bootstrap
 Bootstrap incluye documentación detallada sobre la configuración y el uso de las funciones disponibles en su biblioteca.
 La documentación de Bootstrap está disponible actualmente en el siguiente [enlace](https://getbootstrap.com/docs).
-#### Formularios
-  ##### a. Interruptores
+#### 5.1 Formularios
+  ##### a. Estilos de formularios
+  Bootstrap incluye reglas CSS para mejorar el estilo visual de los elementos de entrada.
+  Esta tabla describe los diferentes elementos de formulario HTML y qué clase CSS de Bootstrap debe utilizarse para ellos.
+  | Elemento de formulario | Clase CSS |
+  | :-- | :-- |
+  | `input` | `form-control`|
+  | `input type="checkbox"` | `form-check-input`|
+  | `input type="radio"` | `form-check-input`|
+  | `input type="range"` | `form-range`|
+  | `select` | `form-select`|
+  ##### b. Interruptores
   Bootstrap incluye reglas CSS para dar estilo a los elementos de entrada de casilla de verificación como conmutadores. Para ello:
     1. Añada lainput a un elementodiv. 
     2. En el elementodiv, aplique las clases CSSform-check yform-switch. 
@@ -90,7 +100,7 @@ La documentación de Bootstrap está disponible actualmente en el siguiente [enl
     <input class="form-check-input" type="checkbox">
   </div>
   ```
-  ##### b. Grupos de entrada
+  ##### c. Grupos de entrada
   Son útiles para proporcionar **contenido adicional al campo de entrada.** Para ello:
     1. Añada elinput a un elementodiv.
     2. Aplique las clases CSS `input-group` en el elementodiv.
@@ -102,7 +112,7 @@ La documentación de Bootstrap está disponible actualmente en el siguiente [enl
     <span class="input-group-text">.00</span>
   </div>
   ```
-  ##### c. Etiquetas flotantes
+  ##### d. Etiquetas flotantes
   Son útiles para proporcionar **contenido adicional al campo de entrada.** Para ello:
     1. Añada el input a un elemento `div`.
     2. Aplique las clases CSS `input-group` en el elemento `div`.
@@ -114,7 +124,7 @@ La documentación de Bootstrap está disponible actualmente en el siguiente [enl
     <span class="input-group-text">.00</span>
   </div>
   ```
-  ##### d. Etiquetas flotantes
+  ##### e. Etiquetas flotantes
     Ayudan a  proporcionar información del formulario al usuario como parte de la propia entrada. La información permanece visible si el usuario está interactuando con el elemento o si el elemento tiene contenido. Para ello:
       1. Añada el input a un elemento `div`. En el elemento `div`, aplique las clases CSS `form-floating`.
     ```html
