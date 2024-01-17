@@ -41,23 +41,11 @@ Bootstrap es una colección de trozos de código preescrito en CSS y JavaScript 
 **Modifiers:** Primary, Secondary, Success, Info, Warning, Danger, Light, Dark
 - Facilidad de cambiar el color de una alerta utilizando estos modificadores.
 ```html
-<!DOCTYPE html>
-
-<html lang="es">  
-
-    <head>
-        <title>Little Lemon</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
-    </head>
-
-    <body>
-        <div class="col-lg-6"> <!-- cambiamos la regla para pantallas grandes (LG) -->
-            <div class="alert alert-primary" role="alert"> <!-- primary is the modifier -->
-                A message.
-            </div>
-        </div>
-    </body>
-</html>
+<div class="col-lg-6"> <!-- cambiamos la regla para pantallas grandes (LG) -->
+    <div class="alert alert-primary" role="alert"> <!-- primary is the modifier -->
+        A message.
+    </div>
+</div>
 ```
 
 ### 3. Rejilla Bootstrap
