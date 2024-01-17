@@ -1,10 +1,10 @@
-# Marcos de interfaz de usuario
-En este módulo se aprenderá a utilizar el framework Bootstrap para construir interfaces responsivas y las ventajas de trabajar con frameworks de interfaz de usuario.
+# [Marcos de interfaz de usuario](https://github.com/trejazmine/Frontend-Training/tree/main/2_Marcos-de_interfaz-de-usuario)
+  En este módulo se aprenderá a utilizar el framework Bootstrap para construir interfaces responsivas y las ventajas de trabajar con frameworks de interfaz de usuario.
 # 1. Introduccion a los marcos y bibliotecas de interfaz de usuario
 ## Introducción al diseño responsivo
 ### Diseño responsivo
-- El diseño responsivo significa que una página web puede estirarse o encogerse automáticamente según la pantalla en la que se muestre.
-- Es la combinación de tres técnicas: cuadrículas flexibles, imágenes fluidas y consultas multimedia.
+  El diseño responsivo significa que una página web puede estirarse o encogerse automáticamente según la pantalla en la que se muestre.
+  Es la combinación de tres técnicas: cuadrículas flexibles, imágenes fluidas y consultas multimedia.
 
 Por ejemplo, si desea que el fondo de su sitio web aparezca azul en una pantalla con un tamaño de pantalla inferior o igual a 700 píxeles.
 ```css
@@ -15,7 +15,7 @@ Por ejemplo, si desea que el fondo de su sitio web aparezca azul en una pantalla
 }
 ```
 Al igual que en un teléfono móvil, puedes usar una regla multimedia para establecer el fondo en función del tamaño de la pantalla.
-- En el diseño responsivo, el valor de píxel especificado suele denominarse punto de interrupción.
+  En el diseño responsivo, el valor de píxel especificado suele denominarse punto de interrupción.
 
 ### Punto de interrupción 
 - Es el punto en el que el contenido y el diseño de un sitio web se adaptarán para ofrecer la mejor experiencia de usuario posible. 
