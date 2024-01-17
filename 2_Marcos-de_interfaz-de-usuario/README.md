@@ -37,7 +37,9 @@ Al igual que en un teléfono móvil, puedes usar una regla multimedia para estab
   El video presenta la clase CSS de Bootstrap, destacando su utilidad para el diseño responsivo de sitios web. Se explica que no es necesario rediseñar el sitio para cada dispositivo, ya que Bootstrap ofrece clases y modificadores que facilitan la adaptación a diferentes tamaños de pantalla.
   Se menciona la importancia de entender los in fixes y modificadores. Los in fixes se utilizan para puntos de ruptura responsivos en el sistema de cuadrícula de Bootstrap, con diferentes abreviaturas para cada tamaño de pantalla, como SM, MD, LG, XL, y XXL.
 ![In-fixes](https://github.com/trejazmine/Frontend-Training/blob/main/2_Marcos-de_interfaz-de-usuario/2_Uso-de-estilos/in-fixes.png?raw=true)
-**Modifiers:** Primary, Secondary, Success, Info, Warning, Danger, Light, Dark
+
+
+#### *Modifiers: Primary, Secondary, Success, Info, Warning, Danger, Light, Dark*
 - Facilidad de cambiar el color de una alerta utilizando estos modificadores.
 ```html
 <div class="col-lg-6"> <!-- cambiamos la regla para pantallas grandes (LG) -->
