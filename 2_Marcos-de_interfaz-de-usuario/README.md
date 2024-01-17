@@ -17,7 +17,7 @@ Por ejemplo, si desea que el fondo de su sitio web aparezca azul en una pantalla
 Al igual que en un teléfono móvil, puedes usar una regla multimedia para establecer el fondo en función del tamaño de la pantalla.
 - En el diseño responsivo, el valor de píxel especificado suele denominarse punto de interrupción.
 
-**Punto de interrupción** 
+### Punto de interrupción 
 - Es el punto en el que el contenido y el diseño de un sitio web se adaptarán para ofrecer la mejor experiencia de usuario posible. 
 - Un punto de interrupción puede funcionar de diferentes maneras en tres redes diferentes:
 
@@ -27,15 +27,15 @@ Al igual que en un teléfono móvil, puedes usar una regla multimedia para estab
 | La cuadrícula fija tiene un contenido fijo que no cambia en un rango de puntos de interrupción específico, mientras que los márgenes flexibles ocupan el espacio restante de la pantalla | Los pilares crecen o se contraen para adaptarse al espacio disponible | Son fijas con componentes |
 
 ## Bootstrap
-Bootstrap es una biblioteca de código CSS y JavaScript que facilita la construcción rápida de sitios web atractivos y responsivos. Ofrece componentes reutilizables y una rejilla responsive predefinida, simplificando el desarrollo web. Su popularidad se debe a su capacidad para ahorrar tiempo, permitiendo a los desarrolladores crear prototipos y sitios visualmente atractivos sin la necesidad de profundos conocimientos en CSS. Al aprender Bootstrap, se adquieren habilidades valiosas, asegurando consistencia en el diseño y facilitando la colaboración en equipos y proyectos. Su versatilidad y prevalencia en la industria lo convierten en una herramienta fundamental para potenciar las habilidades de desarrollo web.
-
-Bootstrap es una colección de trozos de código preescrito en CSS y JavaScript que le permite crear sitios web más rápidamente que si tuviera que crear cada trozo de código desde cero. 
+  Bootstrap es una biblioteca de código CSS y JavaScript que facilita la construcción rápida de sitios web atractivos y responsivos. 
+  Ofrece componentes reutilizables y una rejilla responsive predefinida, simplificando el desarrollo web. S
+  Bootstrap es una colección de trozos de código preescrito en CSS y JavaScript que le permite crear sitios web más rápidamente que si tuviera que crear cada trozo de código desde cero. 
 
 ### [1. Primeros pasos en Bootstrap:](https://github.com/trejazmine/Frontend-Training/tree/main/2_Marcos-de_interfaz-de-usuario/1_Primeros-pasos)
 
 ### [2. Uso de los estilos de Bootstrap](https://github.com/trejazmine/Frontend-Training/tree/main/2_Marcos-de_interfaz-de-usuario/2_Uso-de-estilos)
-- El video presenta la clase CSS de Bootstrap, destacando su utilidad para el diseño responsivo de sitios web. Se explica que no es necesario rediseñar el sitio para cada dispositivo, ya que Bootstrap ofrece clases y modificadores que facilitan la adaptación a diferentes tamaños de pantalla.
-- Se menciona la importancia de entender los in fixes y modificadores. Los in fixes se utilizan para puntos de ruptura responsivos en el sistema de cuadrícula de Bootstrap, con diferentes abreviaturas para cada tamaño de pantalla, como SM, MD, LG, XL, y XXL.
+  El video presenta la clase CSS de Bootstrap, destacando su utilidad para el diseño responsivo de sitios web. Se explica que no es necesario rediseñar el sitio para cada dispositivo, ya que Bootstrap ofrece clases y modificadores que facilitan la adaptación a diferentes tamaños de pantalla.
+  Se menciona la importancia de entender los in fixes y modificadores. Los in fixes se utilizan para puntos de ruptura responsivos en el sistema de cuadrícula de Bootstrap, con diferentes abreviaturas para cada tamaño de pantalla, como SM, MD, LG, XL, y XXL.
 ![In-fixes](https://github.com/trejazmine/Frontend-Training/blob/main/2_Marcos-de_interfaz-de-usuario/2_Uso-de-estilos/in-fixes.png?raw=true)
 **Modifiers:** Primary, Secondary, Success, Info, Warning, Danger, Light, Dark
 - Facilidad de cambiar el color de una alerta utilizando estos modificadores.
@@ -47,15 +47,15 @@ Bootstrap es una colección de trozos de código preescrito en CSS y JavaScript 
 </div>
 ```
 ### [3. Rejilla Bootstrap](https://github.com/trejazmine/Frontend-Training/tree/main/2_Marcos-de_interfaz-de-usuario/3_Rejillas)
-- El sistema de rejilla de bootstrap nos ayuda a crear diseños de páginas web a través de una serie de filas y columnas que albergan nuestro contenido.
-- Para la rejilla, bootstrap utiliza un sistema de rejilla de 12 columnas que puede ser fluido o fijo.
-- Siempre tiene un contenedor, filas y columnas (siempre comienza con el contenedor).
-- **El contenedor contiene almohadillas y alinea su contenido.**
-- Su anchura se determina en función del punto de ruptura responsive actual.
+  El sistema de rejilla de bootstrap nos ayuda a crear diseños de páginas web a través de una serie de filas y columnas que albergan nuestro contenido.
+  Para la rejilla, bootstrap utiliza un sistema de rejilla de 12 columnas que puede ser fluido o fijo.
+  Siempre tiene un contenedor, filas y columnas (siempre comienza con el contenedor).
+**El contenedor contiene almohadillas y alinea su contenido.**
+  Su anchura se determina en función del punto de ruptura responsive actual.
 ![Rejillas](https://github.com/trejazmine/Frontend-Training/blob/main/2_Marcos-de_interfaz-de-usuario/3_Rejillas/rejillas.png?raw=true)
-- Bootstrap permite la configuración de diferentes disposiciones según el dispositivo, utilizando reglas CSS específicas del punto de ruptura.
+  Bootstrap permite la configuración de diferentes disposiciones según el dispositivo, utilizando reglas CSS específicas del punto de ruptura.
 ### [4. Componentes de Bootstrap](https://github.com/trejazmine/Frontend-Training/tree/main/2_Marcos-de_interfaz-de-usuario/4_Componentes)
-Bootstrap incluye un conjunto preconfeccionado de elementos de interfaz de usuario y estilos para ayudarle a construir su sitio web.
+  Bootstrap incluye un conjunto preconfeccionado de elementos de interfaz de usuario y estilos para ayudarle a construir su sitio web.
 ```html
 <div class="col-12 col-lg-6">
     <div class="card">
@@ -77,8 +77,8 @@ Bootstrap incluye un conjunto preconfeccionado de elementos de interfaz de usuar
 - `card-text`: Especifica el estilo para el texto de la tarjeta.
 
 ### 5. Uso de la documentación de Bootstrap
-Bootstrap incluye documentación detallada sobre la configuración y el uso de las funciones disponibles en su biblioteca.
-La documentación de Bootstrap está disponible actualmente en el siguiente [enlace](https://getbootstrap.com/docs).
+  Bootstrap incluye documentación detallada sobre la configuración y el uso de las funciones disponibles en su biblioteca.
+  La documentación de Bootstrap está disponible actualmente en el siguiente [enlace](https://getbootstrap.com/docs).
 #### 5.1 Formularios
   ##### a. Estilos de formularios
   Bootstrap incluye reglas CSS para mejorar el estilo visual de los elementos de entrada.
@@ -134,7 +134,7 @@ La documentación de Bootstrap está disponible actualmente en el siguiente [enl
     </div>
     ```
 ### 6. Otros marcos y bibliotecas CSS
-
+[Foundation](https://get.foundation/),[Pure.css](https://purecss.io/),[Tailwind CSS](https://tailwindcss.com/), [UIKit](https://getuikit.com/) y [MVP.css]([UIKit](https://getuikit.com/))
 # 2. Introduccion a React
 
 ### 1. Contenidos estaticos y dinamicos
