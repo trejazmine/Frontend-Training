@@ -80,41 +80,41 @@ Bootstrap incluye un conjunto preconfeccionado de elementos de interfaz de usuar
 Bootstrap incluye documentación detallada sobre la configuración y el uso de las funciones disponibles en su biblioteca.
 La documentación de Bootstrap está disponible actualmente en el siguiente [enlace](https://getbootstrap.com/docs).
 #### Formularios
-    ##### a. Interruptores
-    Bootstrap incluye reglas CSS para dar estilo a los elementos de entrada de casilla de verificación como conmutadores. Para ello:
-      1. Añada lainput a un elementodiv. 
-      2. En el elementodiv, aplique las clases CSSform-check yform-switch. 
-      3. En el elementoinput, añada la clase CSSform-check-input.
-    ```html
-    <div class="form-check form-switch">
-      <input class="form-check-input" type="checkbox">
-    </div>
-    ```
-    ##### b. Grupos de entrada
-    Son útiles para proporcionar **contenido adicional al campo de entrada.** Para ello:
-      1. Añada elinput a un elementodiv.
-      2. Aplique las clases CSS `input-group` en el elementodiv.
-      3. Añada un elemento `span` antes y/o después del elemento `input` y aplíquele la clase CSS `input-group-text`. El contenido del texto se añade entonces dentro del elemento `span`.
-    ```html
-    <div class="input-group">
-      <span class="input-group-text">$</span>
-      <input type="text" class="form-control">
-      <span class="input-group-text">.00</span>
-    </div>
-    ```
-    ##### c. Etiquetas flotantes
-    Son útiles para proporcionar **contenido adicional al campo de entrada.** Para ello:
-      1. Añada el input a un elemento `div`.
-      2. Aplique las clases CSS `input-group` en el elemento `div`.
-      3. Añada un elemento `span` antes y/o después del elemento `input` y aplíquele la clase CSS `input-group-text`. El contenido del texto se añade entonces dentro del elementospan.
-    ```html
-    <div class="input-group">
-      <span class="input-group-text">$</span>
-      <input type="text" class="form-control">
-      <span class="input-group-text">.00</span>
-    </div>
-    ```
-    ##### d. Etiquetas flotantes
+  ##### a. Interruptores
+  Bootstrap incluye reglas CSS para dar estilo a los elementos de entrada de casilla de verificación como conmutadores. Para ello:
+    1. Añada lainput a un elementodiv. 
+    2. En el elementodiv, aplique las clases CSSform-check yform-switch. 
+    3. En el elementoinput, añada la clase CSSform-check-input.
+  ```html
+  <div class="form-check form-switch">
+    <input class="form-check-input" type="checkbox">
+  </div>
+  ```
+  ##### b. Grupos de entrada
+  Son útiles para proporcionar **contenido adicional al campo de entrada.** Para ello:
+    1. Añada elinput a un elementodiv.
+    2. Aplique las clases CSS `input-group` en el elementodiv.
+    3. Añada un elemento `span` antes y/o después del elemento `input` y aplíquele la clase CSS `input-group-text`. El contenido del texto se añade entonces dentro del elemento `span`.
+  ```html
+  <div class="input-group">
+    <span class="input-group-text">$</span>
+    <input type="text" class="form-control">
+    <span class="input-group-text">.00</span>
+  </div>
+  ```
+  ##### c. Etiquetas flotantes
+  Son útiles para proporcionar **contenido adicional al campo de entrada.** Para ello:
+    1. Añada el input a un elemento `div`.
+    2. Aplique las clases CSS `input-group` en el elemento `div`.
+    3. Añada un elemento `span` antes y/o después del elemento `input` y aplíquele la clase CSS `input-group-text`. El contenido del texto se añade entonces dentro del elementospan.
+  ```html
+  <div class="input-group">
+    <span class="input-group-text">$</span>
+    <input type="text" class="form-control">
+    <span class="input-group-text">.00</span>
+  </div>
+  ```
+  ##### d. Etiquetas flotantes
     Ayudan a  proporcionar información del formulario al usuario como parte de la propia entrada. La información permanece visible si el usuario está interactuando con el elemento o si el elemento tiene contenido. Para ello:
       1. Añada el input a un elemento `div`. En el elemento `div`, aplique las clases CSS `form-floating`.
     ```html
