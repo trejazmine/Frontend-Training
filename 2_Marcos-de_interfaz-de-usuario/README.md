@@ -147,6 +147,7 @@ Al igual que en un teléfono móvil, puedes usar una regla multimedia para estab
 
 - Lo que realmente sucede es que el servidor web se comunica con otro tipo de servidor, llamado servidor de aplicaciones o servidor de respaldo. El servidor de aplicaciones genera el contenido dinámico que el servidor web envía al navegador del usuario. 
 - Los servidores de aplicaciones realizan un procesamiento más complejo que los servidores web.
+
 ### 2. Aplicaciones de una sola página
 
 ## REACT
