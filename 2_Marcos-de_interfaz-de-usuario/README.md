@@ -56,6 +56,26 @@ Bootstrap es una colección de trozos de código preescrito en CSS y JavaScript 
 - Bootstrap permite la configuración de diferentes disposiciones según el dispositivo, utilizando reglas CSS específicas del punto de ruptura.
 ### [4. Componentes de Bootstrap](https://github.com/trejazmine/Frontend-Training/tree/main/2_Marcos-de_interfaz-de-usuario/4_Componentes)
 
+```html
+<div class="col-12 col-lg-6">
+    <div class="card">
+        <img src="calamari.jpg" class="card-img-top" />
+        <div class="card-body">
+            <h2 class="card-title">Fried Calamari <span class="badge bg-primary">New</span></h2>
+            <p class="card-text">Squid, buttermilk,</p>
+        </div>
+    </div>
+</div>
+```
+- `col-12`: La columna ocupará todo el ancho disponible en dispositivos pequeños (menos de 576 píxeles). En dispositivos más pequeños, la columna ocupará las 12 columnas disponibles.
+- `col-lg-6`: La columna ocupará la mitad del ancho disponible en dispositivos grandes (igual o superior a 992 píxeles). En dispositivos grandes, la columna ocupará 6 de las 12 columnas disponibles.
+- `card`: Es un contenedor que se utiliza para presentar contenido de manera estructurada.
+- `card-img-top`: Esta clase se aplica a la imagen dentro de la tarjeta y coloca la imagen en la parte superior de la tarjeta.
+- `card-body`: Esta clase se aplica al contenedor que alberga el contenido principal de la tarjeta, como el título y el texto.
+- `card-title`: Esta clase se aplica al elemento <h2> que contiene el título de la tarjeta ("Fried Calamari" en este caso). Especifica el estilo para el título de la tarjeta.
+- `badge bg-primary`: Esta clase se aplica al elemento <span> que contiene la etiqueta "New". Un badge es un pequeño elemento que se utiliza para etiquetar o resaltar información. bg-primary establece el color de fondo del badge como azul primario.
+- `card-text`: Esta clase se aplica al elemento <p> que contiene el texto de la tarjeta ("Squid, buttermilk," en este caso). Especifica el estilo para el texto de la tarjeta.
+
 ### 5. Uso de la documentación de Bootstrap
 
 ### 6. Otros marcos y bibliotecas CSS
