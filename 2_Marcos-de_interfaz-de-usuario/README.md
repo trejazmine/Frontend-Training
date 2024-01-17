@@ -141,12 +141,19 @@ Al igual que en un teléfono móvil, puedes usar una regla multimedia para estab
 
 ### 1. Contenidos estaticos y dinamicos
 
+| Contenido estático |  Contenido dinámico |
+| --- | ---|
+| Son archivos que el servidor transfiere tal como están almacenados en el servidor web, como vídeos o imágenes | Se genera cuando se realiza la solicitud HTTP. Por ejemplo, el contenido puede generarse en función de las entradas de un usuario o, cuando visitas un sitio web de noticias , se basa en la fecha actual. |
+
+- Lo que realmente sucede es que el servidor web se comunica con otro tipo de servidor, llamado servidor de aplicaciones o servidor de respaldo. El servidor de aplicaciones genera el contenido dinámico que el servidor web envía al navegador del usuario. 
+- Los servidores de aplicaciones realizan un procesamiento más complejo que los servidores web.
 ### 2. Aplicaciones de una sola página
 
 ## REACT
+3. Que es React
 
 ### 1. Funcionamiento
 
-### 2. DOM virtual
+#### - DOM virtual
 
-### 3. Jerarquia de componentes
+### 2. Jerarquia de componentes
