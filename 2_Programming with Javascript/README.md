@@ -52,7 +52,7 @@ comment
 | Operator | Meaning | Example |
 | --- | --- | ---|
 | AND (`&&`) | Verifica que dos o más condiciones sean verdaderas. | `a>5&&a<10` |
-| OR (`||`) | Verifica que al menos una de las condiciones sea verdadera. | `a>5||a>10` |
+| OR (`H`) | Verifica que al menos una de las condiciones sea verdadera. | `a>5Ha>10` |
 | NOT (`!`) | Devuelve un valor falso si el resultado es verdadero. | `!(a>5)` |
 ```javascript
 console.log(2+2); //4
