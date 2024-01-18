@@ -34,23 +34,27 @@ comment
   - Indefinido (Undefined): Se refiere a una variable a la que aún no se le ha asignado ningún valor.
   - BigInt: Introducido en ES6, es adecuado para manejar números más grandes que el tipo de datos number.
   - Símbolo (Symbol): Se utiliza como identificador único y es útil para evitar confusiones al tener varias cajas con la misma etiqueta.
-  ### Operadores
-a. Operadores de asignación (aritmética):
+### Operadores
+
+#### a. Operadores de asignación (aritmética):
 - Suma: +
 - Resta: -
 - Multiplicación: *
 - División: /
-b. Operadores de comparación:
+
+#### b. Operadores de comparación:
 - Mayor que: >
 - Menor que: <
 - Igual a: == (se utiliza dos veces)
 - Diferente de: !=
-c. Operadores lógicos:
+
+#### c. Operadores lógicos:
 | Operator | Meaning | Example |
 | --- | --- | ---|
 | AND (&&) | Verifica que dos o más condiciones sean verdaderas. | a>5&&a<10 |
 | OR (||) | Verifica que al menos una de las condiciones sea verdadera. | a>5||a>10 |
 | NOT (!) | Devuelve un valor falso si el resultado es verdadero. | !(a>5) |
+
   ### Numeros
   ### Cuerdas
   ### Booleanos
