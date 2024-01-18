@@ -20,20 +20,20 @@ comment
   console.log("Hello, World");
   console.log("Hello, World"); //En este fragmento de código, hay algunos añadidos: el tamaño de la fuente es diferente y el color es azul: 
   ```
-  ### a. Variables
-  ```javascript
-  var person = " John"; // declaracion de variable/asigancion de valor 
-  console.log("Hello", person);
-  
-  ```
-  ### Tipos de datos
-  - Cadena (String): Ideal para almacenar valores de texto como nombres y descripciones. Se deben usar comillas simples o dobles para construir cadenas.
-  - Número (Number): Adecuado para almacenar valores numéricos, como precios. Tiene un rango amplio, pero está limitado por las capacidades de cálculo de JavaScript.
-  - Booleano (Boolean): Con solo dos valores posibles (verdadero o falso), es útil para la toma de decisiones en el código.
-  - Nulo (Null): Representa la ausencia de valor y se utiliza cuando se desea indicar explícitamente que una variable no tiene ningún valor.
-  - Indefinido (Undefined): Se refiere a una variable a la que aún no se le ha asignado ningún valor.
-  - BigInt: Introducido en ES6, es adecuado para manejar números más grandes que el tipo de datos number.
-  - Símbolo (Symbol): Se utiliza como identificador único y es útil para evitar confusiones al tener varias cajas con la misma etiqueta.
+### a. Variables
+```javascript
+var person = " John"; // declaracion de variable/asigancion de valor 
+console.log("Hello", person);
+
+```
+### Tipos de datos
+- Cadena (String): Ideal para almacenar valores de texto como nombres y descripciones. Se deben usar comillas simples o dobles para construir cadenas.
+- Número (Number): Adecuado para almacenar valores numéricos, como precios. Tiene un rango amplio, pero está limitado por las capacidades de cálculo de JavaScript.
+- Booleano (Boolean): Con solo dos valores posibles (verdadero o falso), es útil para la toma de decisiones en el código.
+- Nulo (Null): Representa la ausencia de valor y se utiliza cuando se desea indicar explícitamente que una variable no tiene ningún valor.
+- Indefinido (Undefined): Se refiere a una variable a la que aún no se le ha asignado ningún valor.
+- BigInt: Introducido en ES6, es adecuado para manejar números más grandes que el tipo de datos number.
+- Símbolo (Symbol): Se utiliza como identificador único y es útil para evitar confusiones al tener varias cajas con la misma etiqueta.
 ### Operadores
 #### a. Operadores de asignación (aritmética):
 - Suma: +
