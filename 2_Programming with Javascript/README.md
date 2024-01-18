@@ -166,16 +166,15 @@ Se utiliza para ejecutar bloques de código basados en si una condición es verd
      console.log("No medal");
  }
  ```
+- **Sintaxis de switch**
+    - La sentencia switch evalúa una expresión y ejecuta el bloque de código correspondiente al caso que coincide con el valor de la expresión.
+    - Se utiliza `break` para salir de la sentencia switch después de que se ejecuta un caso.
+    - El bloque `default` se ejecuta si ninguno de los casos coincide.
 
 ##### *Diferencias y consideraciones:*
     - La sentencia if-else puede volverse inmanejable con múltiples condiciones, especialmente si son muchas.
     - La sentencia switch proporciona una forma más estructurada de manejar múltiples casos.
     - Ambas estructuras son útiles en diferentes situaciones, y la elección entre ellas depende del contexto y la legibilidad del código.
-
-#### d. Sintaxis de switch
-- La sentencia switch evalúa una expresión y ejecuta el bloque de código correspondiente al caso que coincide con el valor de la expresión.
-- Se utiliza `break` para salir de la sentencia switch después de que se ejecuta un caso.
-- El bloque `default` se ejecuta si ninguno de los casos coincide.
 
 ### Bucles 
 Son herramientas fundamentales para ejecutar tareas repetitivas. Comparados con las sentencias condicionales que ejecutan bloques de código una vez, los bucles permiten repetir el mismo bloque hasta que se cumple una condición.
