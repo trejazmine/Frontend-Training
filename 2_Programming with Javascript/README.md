@@ -83,6 +83,9 @@ console.log(10==10); //true
 ### Strings (cadenas)
 Es una colección de caracteres encerrados entre comillas simples, comillas dobles. 
 Tal colección de caracteres se conoce como ***tipo de datos cadena***. 
+- ***¿Qué ocurre cuando se utiliza el operador + sobre dos cadenas?*** Se unen en una sola cadena.
+- ***¿Qué ocurre cuando se utiliza el operador + sobre una cadena y un número?*** Se unen en una sola cadena.
+  
   ### Booleanos
 Este tipo de dato se utiliza para evaluar si una afirmación es verdadera o falsa.
 ```javascript
