@@ -172,9 +172,9 @@ Se utiliza para ejecutar bloques de código basados en si una condición es verd
     - El bloque `default` se ejecuta si ninguno de los casos coincide.
 
 ##### *Diferencias y consideraciones:*
-    - La sentencia if-else puede volverse inmanejable con múltiples condiciones, especialmente si son muchas.
-    - La sentencia switch proporciona una forma más estructurada de manejar múltiples casos.
-    - Ambas estructuras son útiles en diferentes situaciones, y la elección entre ellas depende del contexto y la legibilidad del código.
+- La sentencia if-else puede volverse inmanejable con múltiples condiciones, especialmente si son muchas.
+- La sentencia switch proporciona una forma más estructurada de manejar múltiples casos.
+- Ambas estructuras son útiles en diferentes situaciones, y la elección entre ellas depende del contexto y la legibilidad del código.
 
 ### Bucles 
 Son herramientas fundamentales para ejecutar tareas repetitivas. Comparados con las sentencias condicionales que ejecutan bloques de código una vez, los bucles permiten repetir el mismo bloque hasta que se cumple una condición.
@@ -196,8 +196,26 @@ while (i <= 100) {
 }
 ```
 ##### *Elección entre For y While:* 
-    Anto el bucle for como el while pueden lograr los mismos resultados. Sin embargo, algunos desarrolladores prefieren el for debido a su estructura autocontenida.
+- Tanto el bucle for como el while pueden lograr los mismos resultados. Sin embargo, algunos desarrolladores prefieren el for debido a su estructura autocontenida.
 
 ### Bucle FOR
+- La estructura básica del bucle `for` consta de tres partes: el contador, la condición de salida y el incrementador. En el siguiente ejemplo, el bucle cuenta desde 1 hasta 3:
+```javascript
+//Este código cuenta desde 10 hasta 1 y luego imprime "¡Feliz Año Nuevo!".
+for (let i = 10; i > 0; i--) {
+  console.log(i);
+}
+console.log("¡Feliz Año Nuevo!");
+```
+  
 ### Bucle WHILE
+- A diferencia del bucle `for`, el bucle `while` tiene algunas diferencias clave. En el bucle `while`, debes establecer el contador antes del bucle y especificar solo la condición de salida dentro de los paréntesis. Veamos un ejemplo:
+```javascript
+let contador = 3;
+while (contador > 0) { //bloque de código dentro del bucle se ejecutará mientras la condición sea verdadera
+  console.log(contador);
+  contador = contador - 1;
+}
+console.log("¡Feliz Año Nuevo!");
+```
 ### Bucles anidados
