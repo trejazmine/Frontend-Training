@@ -99,10 +99,106 @@ score //100
 1 !== "1" // false (compara el valor y tipo de dato)
 ```
 
-  ## 2. Condicionales y bucles
-  ### Declaraciones por escrito
-  ### Enunciados condicionales
-  ### Constructores en buble
-  ### Bucle FOR
-  ### Bucle WHILE
-  ### Bucles anidados
+## 2. Condicionales y bucles
+### Declaraciones escritas
+#### a. Sentencia if
+La sentencia `if` comprueba una condición y ejecuta un bloque de código si la condición es verdadera.
+```javascript
+let resultadoExamen = 45;
+
+if (resultadoExamen > 40) {
+  console.log("¡Aprobado!");
+}
+```
+#### b. Sentencia if-else
+La sentencia `if-else` maneja dos resultados posibles de una condición. Si la condición es verdadera, se ejecuta un bloque; de lo contrario, se ejecuta otro bloque. Ejemplo:
+```javascript
+let resultadoExamen = 35;
+
+if (resultadoExamen > 40) {
+  console.log("¡Aprobado!");
+} else {
+  console.log("No ha aprobado.");
+}
+```
+#### c. Sentencia else-if
+Cuando se necesitan múltiples condiciones, se utiliza `else-if` para agregar bloques adicionales de comprobación. Por ejemplo:
+```javascript
+let resultadoExamen = 25;
+
+if (resultadoExamen > 40) {
+  console.log("¡Aprobado!");
+} else if (resultadoExamen > 30) {
+  console.log("Aprobado, pero puede mejorar.");
+} else {
+  console.log("No ha aprobado.");
+}
+```
+### Enunciados condicionales
+#### a. Sentencia if-else
+Se utiliza para ejecutar bloques de código basados en si una condición es verdadera o falsa.
+ ```javascript
+ let resultado = 50;
+ 
+ if (resultado > 40) {
+   console.log("Pasa la prueba");
+ } else {
+   console.log("No pasó la prueba");
+ }
+ ```
+
+#### b. Sentencia switch
+   - Se utiliza cuando hay múltiples condiciones y se quiere comparar un valor con varios casos posibles.
+ ```javascript
+ let place = "first";
+ 
+ switch (place) {
+   case "first":
+     console.log("Gold");
+     break;
+   case "second":
+     console.log("Silver");
+     break;
+   case "third":
+     console.log("Bronze");
+     break;
+   default:
+     console.log("No medal");
+ }
+ ```
+
+##### *Diferencias y consideraciones:*
+    - La sentencia if-else puede volverse inmanejable con múltiples condiciones, especialmente si son muchas.
+    - La sentencia switch proporciona una forma más estructurada de manejar múltiples casos.
+    - Ambas estructuras son útiles en diferentes situaciones, y la elección entre ellas depende del contexto y la legibilidad del código.
+
+#### d. Sintaxis de switch
+- La sentencia switch evalúa una expresión y ejecuta el bloque de código correspondiente al caso que coincide con el valor de la expresión.
+- Se utiliza `break` para salir de la sentencia switch después de que se ejecuta un caso.
+- El bloque `default` se ejecuta si ninguno de los casos coincide.
+
+### Bucles 
+Son herramientas fundamentales para ejecutar tareas repetitivas. Comparados con las sentencias condicionales que ejecutan bloques de código una vez, los bucles permiten repetir el mismo bloque hasta que se cumple una condición.
+- **Contador en Bucles**: El contador, también conocido como incrementador, es esencial en bucles. Actúa como un marcador que indica cuándo iniciar y terminar el bucle. En JavaScript, es común utilizar la letra "i" como contador.
+#### a. Bucle For
+El bucle `for` es estructurado y se utiliza para repetir un bloque de código un número específico de veces. Su estructura incluye la inicialización del contador, una condición y un incremento o decremento del contador.
+```javascript
+for (let i = 1; i <= 100; i++) {
+  console.log(i);
+}
+```
+#### b. Bucle While
+El bucle while es similar al for. Se ejecuta mientras una condición sea verdadera, y el incremento del contador se realiza dentro del cuerpo del bucle.
+```javascript
+let i = 1;
+while (i <= 100) {
+  console.log(i);
+  i++;
+}
+```
+##### *Elección entre For y While:* 
+    Anto el bucle for como el while pueden lograr los mismos resultados. Sin embargo, algunos desarrolladores prefieren el for debido a su estructura autocontenida.
+
+### Bucle FOR
+### Bucle WHILE
+### Bucles anidados
