@@ -220,6 +220,9 @@ console.log("¡Feliz Año Nuevo!");
 ```
 ### Bucles anidados
 Cuando necesitas realizar más de una tarea al mismo tiempo, como procesar dos conjuntos de datos diferentes, puedes usar bucles anidados en JavaScript. Los bucles anidados te permiten colocar un bucle dentro de otro, ejecutando así múltiples tareas en paralelo.
+
+  -  Las variables declaradas con var tienen un ámbito de función, lo que significa que están disponibles en toda la función en la que se declaran, independientemente de su posición dentro de la función. En cambio, las variables declaradas con let tienen un ámbito de bloque, lo que significa que solo están disponibles dentro del bloque donde se declaran.
+
 ```javascript
 // Supongamos que estás creando un plan de dos semanas, donde necesitas imprimir la salida de cada número de día asociado a la semana. Utilizar bucles anidados es ideal para este escenario. Aquí hay un ejemplo práctico con bucles `for`:
 for (let semana = 1; semana <= 2; semana++) {
