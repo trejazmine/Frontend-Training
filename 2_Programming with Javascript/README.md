@@ -242,6 +242,7 @@ for (let year = 2023; year < 2025; year++) {
 }
 // Este código imprimirá los años 2023 y 2024, junto con los meses de verano (junio, julio, agosto) para cada año.
 ```
+---
 # CAPITULO 2: Arrays, objects and funtions
 ## Funciones
 - Las funciones en JavaScript permiten agrupar un conjunto de instrucciones relacionadas bajo un nombre.
