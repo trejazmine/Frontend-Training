@@ -219,3 +219,23 @@ while (contador > 0) { //bloque de código dentro del bucle se ejecutará mientr
 console.log("¡Feliz Año Nuevo!");
 ```
 ### Bucles anidados
+Cuando necesitas realizar más de una tarea al mismo tiempo, como procesar dos conjuntos de datos diferentes, puedes usar bucles anidados en JavaScript. Los bucles anidados te permiten colocar un bucle dentro de otro, ejecutando así múltiples tareas en paralelo.
+```javascript
+// Supongamos que estás creando un plan de dos semanas, donde necesitas imprimir la salida de cada número de día asociado a la semana. Utilizar bucles anidados es ideal para este escenario. Aquí hay un ejemplo práctico con bucles `for`:
+for (let semana = 1; semana <= 2; semana++) {
+  for (let dia = 1; dia <= 5; dia++) {
+    console.log(`Semana ${semana}, Día ${dia}`);
+  }
+}
+```
+
+```javascript
+// Otro ejemplo demuestra cómo usar bucles anidados para visualizar los meses de verano a lo largo de dos años:
+for (let year = 2023; year < 2025; year++) {
+  console.log(`Año: ${year}`);
+  for (let mes = 6; mes < 9; mes++) {
+    console.log(`-- ${mes}`);
+  }
+}
+// Este código imprimirá los años 2023 y 2024, junto con los meses de verano (junio, julio, agosto) para cada año.
+```
