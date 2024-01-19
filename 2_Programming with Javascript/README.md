@@ -1,5 +1,5 @@
 # CAPITULO 1
-<details>
+<summary>
 ## 1. Bienvenido a la programacion
 ### Comentarios
 - Comentarios de una sola línea 
@@ -244,7 +244,7 @@ for (let year = 2023; year < 2025; year++) {
 // Este código imprimirá los años 2023 y 2024, junto con los meses de verano (junio, julio, agosto) para cada año.
 ```
 
-</details>
+</summary>
 ---
 # CAPITULO 2: Arrays, objects and funtions
 ## Funciones
