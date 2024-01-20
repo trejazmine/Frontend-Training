@@ -302,7 +302,6 @@ Evitan la necesidad de crear variables individuales para cada elemento, facilita
   ```javascript
   let cargaDelVagon0 = tren1[0];  // Acceso al vagón 0 (trigo)
   ```
-
 ## Introducción a los objetos
 En programación, los objetos se utilizan para relacionar grupos de datos.
 Se utiliza un ejemplo de construcción de un personaje gerente de tienda en un juego de venta de galletas.
