@@ -328,3 +328,99 @@ Se utiliza un ejemplo de construcción de un personaje gerente de tienda en un j
      gerenteDeTienda.siguienteLogro = "Mejor Vendedor";
      subdirector.ubicacion = "Oficina Central";
      ```
+## Fallos y errores
+   - Exploración de la frustración causada por mensajes de error.
+   - Diferenciación entre fallos y errores.
+
+Ejemplo de Función sin Errores:
+   ```javascript
+   function sumarNumeros(a, b) {
+     let resultado = a + b;
+     console.log(resultado);
+   }
+   sumarNumeros(1, 2);  // Resultado esperado: 3
+   ```
+
+Ejemplo de Coerción y Error:
+   ```javascript
+   function concatenarCadenas(str, num) {
+     let resultado = str + num;
+     console.log(resultado);
+   }
+   concatenarCadenas("1", 2);  // Resultado inesperado: "12"
+   ```
+
+## Error de Referencia:
+   ```javascript
+   // Este código generaría un error de referencia
+   console.log(variableNoDefinida);
+   ```
+
+### 5. Tipos Comunes de Errores:
+   - Error de Tipo:
+     ```javascript
+     // Este código generaría un error de tipo
+     let numero = 5;
+     console.log(numero.pop());
+     ```
+
+### 6. Manejo de Errores en JavaScript:
+   - Resalta que JavaScript intenta informar errores enviando mensajes a la consola.
+   - Definición de errores como fragmentos de código defectuosos que impiden la ejecución.
+
+### 7. Herramientas de JavaScript para Detectar Errores:
+   - Menciona la importancia de las herramientas de JavaScript para detectar y manejar errores durante el desarrollo.
+
+# Pruebe los bloques de captura
+
+2. Uso de `try`, `catch`, y `throw`:
+   - La sentencia `try` envuelve un bloque de código que puede lanzar un error.
+   - La sentencia `catch` atrapa el error y ejecuta un bloque de código para manejarlo.
+   - La palabra clave `throw` se utiliza para lanzar manualmente un error.
+
+3. Ejemplo de Error de Referencia:
+   ```javascript
+   try {
+     console.log(a + b);  // a y b no están definidas
+   } catch (err) {
+     console.error("Hubo un error:", err);
+   }
+   ```
+
+4. Lanzar un Error Manualmente:
+   ```javascript
+   try {
+     throw new ReferenceError("Hubo un error de referencia");
+   } catch (err) {
+     console.error("Error personalizado:", err.message);
+   } finally {
+     console.log("Mi programa no se detiene");
+   }
+   ```
+
+5. Ventajas del Uso de `try` y `catch`:
+   - Aunque un error ocurra, el programa no se detiene.
+   - Ejemplo que demuestra que el código sigue ejecutándose después de un error.
+
+Valores indefinidos, nulos y vacíos
+Tipo de Datos `null`
+   - Representa la ausencia intencional de cualquier valor de objeto.
+   - Se puede obtener como resultado de ciertos métodos integrados, como `match`.
+
+Tipo de Datos `undefined`
+   - Utilizado cuando un valor aún no está definido o no puede asignarse.
+   - Ejemplos incluyen funciones que no devuelven nada, variables no asignadas, y asignación posterior.
+
+Diferencias y Escenarios de Uso
+   - `null` y `undefined` se utilizan en situaciones específicas.
+   - Ejemplos de cómo JavaScript asigna automáticamente `undefined` a variables no asignadas.
+
+5. Valor de Marcador de Posición
+   - `undefined` actúa como un marcador de posición para un valor no especificado pero reconocido por el motor de JavaScript.
+
+6. Escenario de Objeto y Propiedad
+   - `undefined` se obtiene al intentar acceder a una propiedad de un objeto que no existe.
+
+Cadena Vacía
+   - Una cadena sin caracteres en su interior.
+   - Se puede construir con comillas simples o dobles sin caracteres entre ellas.
