@@ -402,16 +402,16 @@ Ejemplo de Coerción y Error:
    - Aunque un error ocurra, el programa no se detiene.
    - Ejemplo que demuestra que el código sigue ejecutándose después de un error.
 
-Valores indefinidos, nulos y vacíos
-Tipo de Datos `null`
+## Valores indefinidos, nulos y vacíos
+### 1. Tipo de Datos `null`
    - Representa la ausencia intencional de cualquier valor de objeto.
    - Se puede obtener como resultado de ciertos métodos integrados, como `match`.
 
-Tipo de Datos `undefined`
+### 2. Tipo de Datos `undefined`
    - Utilizado cuando un valor aún no está definido o no puede asignarse.
    - Ejemplos incluyen funciones que no devuelven nada, variables no asignadas, y asignación posterior.
-
-Diferencias y Escenarios de Uso
+ 
+- *** Diferencias y Escenarios de Uso ***
    - `null` y `undefined` se utilizan en situaciones específicas.
    - Ejemplos de cómo JavaScript asigna automáticamente `undefined` a variables no asignadas.
 
@@ -421,6 +421,6 @@ Diferencias y Escenarios de Uso
 6. Escenario de Objeto y Propiedad
    - `undefined` se obtiene al intentar acceder a una propiedad de un objeto que no existe.
 
-Cadena Vacía
+### 3. Cadena Vacía
    - Una cadena sin caracteres en su interior.
    - Se puede construir con comillas simples o dobles sin caracteres entre ellas.
