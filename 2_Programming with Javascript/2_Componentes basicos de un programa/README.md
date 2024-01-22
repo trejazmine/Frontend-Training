@@ -1,4 +1,4 @@
-# Arrays, objects and funtions
+# A. Arrays, objects and funtions
 ## Funciones
 - Las funciones en JavaScript permiten agrupar un conjunto de instrucciones relacionadas bajo un nombre.
 - El principio "DRY" (Don't Repeat Yourself) es esencial para evitar repeticiones en el código.
@@ -81,7 +81,7 @@ Se utiliza un ejemplo de construcción de un personaje gerente de tienda en un j
      gerenteDeTienda.siguienteLogro = "Mejor Vendedor";
      subdirector.ubicacion = "Oficina Central";
      ```
-# Tratamiento de errores
+# B. Tratamiento de errores
 ## Fallos y errores
    - Exploración de la frustración causada por mensajes de error.
    - Diferenciación entre fallos y errores.
