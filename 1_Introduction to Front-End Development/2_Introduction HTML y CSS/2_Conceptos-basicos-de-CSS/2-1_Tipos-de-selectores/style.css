@@ -1,0 +1,33 @@
+
+h1 { 
+    color: green; /* declaration block */
+}
+
+#header1 { 
+    color: blue;
+}
+
+.navigation { 
+    margin: 2px;
+  }
+
+p.introduction { 
+    margin: 2px;
+    color:brown;
+}
+
+
+#blog h1 {
+    color: purple;
+}
+#blog div h2 {
+    color: palevioletred;
+}
+
+#blog > h1 {
+    color: yellowgreen;
+}
+
+a:hover {
+    color: orange;
+  }
