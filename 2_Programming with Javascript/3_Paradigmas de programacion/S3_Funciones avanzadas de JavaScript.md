@@ -1,8 +1,25 @@
 # SECCION 3: Funciones avanzadas de JavaScript
 ## 1. Desestructuración de matrices y objetos
-En este video se aborda la desestructuración de objetos y matrices en JavaScript. Se emplea la analogía de copiar formato de un texto a otro para explicar cómo se pueden extraer propiedades de objetos y crear variables independientes. Se destaca la importancia de la ortografía correcta al utilizar la palabra clave `let` para desestructurar propiedades.
+- ***Desestructuración (destructuring)***: Es similar a copiar propiedades de un objeto o matriz y aplicarlas a otra. La desestructuración permite extraer valores de objetos o matrices de una manera más concisa. A continuación, se proporciona un resumen del código y los conceptos presentados:
 
-A través de un ejemplo con el objeto matemático incorporado, se demuestra la desestructuración de la propiedad `PI` y se enfatiza la falta de conexión entre la variable desestructurada y la propiedad original. El código utilizado se centra en la palabra clave `let` y la comparación estricta (`===`) para verificar la independencia de las variables.
+```javascript
+// Ejemplo de desestructuración de un objeto
+let { pi: Pie } = Math;
+console.log(Pie); // Resultado esperado: Valor de Math.pi
+
+// Intento fallido de desestructuración con nombre de propiedad incorrecto
+let { pi: piMinuscula } = Math;
+console.log(piMinuscula); // Resultado: undefined
+
+// Comparación de valores desestructurados y original
+console.log(piMinuscula === Math.pi); // Resultado: false
+
+// Actualización del valor desestructurado
+piMinuscula = 1;
+console.log(piMinuscula === Math.pi); // Resultado: false
+```
+
+En este ejemplo, se utilizó la sintaxis de desestructuración (`let { propiedad: nuevoNombre } = objeto`) para extraer el valor de `Math.pi` y asignarlo a una nueva variable llamada `Pie`. Además, se intentó desestructurar un nombre de propiedad incorrecto, lo que resultó en `undefined`. Luego, se compararon los valores desestructurados y el valor original, demostrando que no están conectados.
 
 ## 2. Bucles `for-in` y `for-of` en Objetos
 
