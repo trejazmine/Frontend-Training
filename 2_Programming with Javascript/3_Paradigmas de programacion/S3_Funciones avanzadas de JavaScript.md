@@ -47,8 +47,6 @@ for (let prop of Object.keys(cocheDeportivo)) {
 ```
 
 ## 4. Trabajar con literales de plantilla
-En este video, se exploran los literales de plantilla en JavaScript ES6, destacando sus ventajas sobre las cadenas convencionales de ES5. A través de ejemplos, se muestra cómo los literales de plantilla permiten la creación de cadenas multilínea y la interpolación de variables de manera más flexible.
-
 1. **Cadenas en ES5:**
    - Se utilizan comillas simples o dobles para definir cadenas.
    - No admiten fácilmente cadenas multilínea.
@@ -80,11 +78,9 @@ let combined = `${first} from the ${second}`;
 console.log(combined);
 ```
 
-Se resalta la flexibilidad y la eliminación de restricciones al utilizar literales de plantilla, lo que mejora la experiencia de codificación al simplificar la creación de cadenas y la interpolación de variables en comparación con los métodos convencionales de ES5.
+> Se resalta la flexibilidad y la eliminación de restricciones al utilizar literales de plantilla, lo que mejora la experiencia de codificación al simplificar la creación de cadenas y la interpolación de variables en comparación con los métodos convencionales de ES5.
 
 ## 5. Estructuras de datos
-En este video, se aborda la elección de estructuras de datos en JavaScript al enfrentarse a la tarea de calcular la calificación media de los resultados de los exámenes de los estudiantes. Antes de codificar la solución, se reflexiona sobre cómo representar los datos. Se presentan varias estructuras de datos comunes en JavaScript, incluyendo objetos, arrays, mapas y conjuntos, y se destacan sus características principales.
-
 1. **Objetos:**
    - Colección no iterable de pares clave-valor.
    - Útil para almacenar y acceder a valores bajo una clave.
@@ -125,7 +121,7 @@ let uniqueGrades = new Set([90, 85, 90, 92]);
 ```
 
 ## 6. Operador de dispersión
-En este video, se introduce y explora el operador de dispersión (`spread operator`) en JavaScript, una característica incorporada en la actualización ES6 del lenguaje. Este operador, representado por tres puntos (`...`), se presenta como una herramienta versátil para copiar propiedades de objetos y combinar elementos de matrices. Se ilustra su utilidad a través de un ejemplo práctico.
+El operador de dispersión (`spread operator`) es una característica incorporada en la actualización ES6 del lenguaje. Este operador, representado por tres puntos (`...`), se presenta como una herramienta versátil para copiar propiedades de objetos y combinar elementos de matrices. Se ilustra su utilidad a través de un ejemplo práctico.
 
 1. **Definición del Operador de Dispersión:**
    - El operador de dispersión se representa por tres puntos (`...`).
@@ -163,7 +159,7 @@ showItinerary(...top7);
 > En resumen, el operador de dispersión facilita la manipulación de elementos en matrices y mejora la claridad y concisión del código al evitar la necesidad de enumerar manualmente cada elemento al pasarlos a funciones.
 
 ## 7. Operador de descanso
-En este video, se explora el operador rest en JavaScript, que se utiliza para construir una "caja más pequeña" al empaquetar elementos en ella. A través de ejemplos prácticos, se ilustra cómo el operador rest puede ser útil, especialmente en situaciones en las que se necesita extraer solo algunos elementos de un conjunto más grande.
+El operador rest se utiliza para construir una "caja más pequeña" al empaquetar elementos en ella. A través de ejemplos prácticos, se ilustra cómo el operador rest puede ser útil, especialmente en situaciones en las que se necesita extraer solo algunos elementos de un conjunto más grande.
 
 1. **Definición del Operador Rest:**
    - El operador rest se utiliza para empaquetar elementos en una estructura más pequeña, como un array.
