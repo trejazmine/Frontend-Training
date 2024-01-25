@@ -47,9 +47,45 @@ DVCS: Mayor velocidad y rendimiento, funciona localmente, permite trabajar sin c
    - `cat Archivo1.txt archivo2.txt | wc -w` cuenta palabras en ambos archivos (resultado: 362).
 
 > ***Observaciones:***
-- La tubería (`|`) permite pasar la salida de un comando como entrada a otro.
-- El comando `wc` con la bandera `-w` cuenta palabras.
-- Se pueden combinar comandos para realizar operaciones más complejas.
-  
+> - La tubería (`|`) permite pasar la salida de un comando como entrada a otro.
+> - El comando `wc` con la bandera `-w` cuenta palabras.
+> - Se pueden combinar comandos para realizar operaciones más complejas.
+
+## Redirección en la Línea de Comandos
+
+1. **Flujo de Trabajo Básico:**
+   - Comandos Linux: Toman entrada y generan salida.
+   - Entrada Estándar (STDIN): Representada por 0.
+   - Salida Estándar (STDOUT): Representada por 1.
+   - Error Estándar (STDERR): Representada por 2.
+
+2. **Redirección de Entrada Estándar:**
+   - Uso de `cat` para capturar entrada del usuario y guardarla en un archivo (ejemplo: `cat > input.txt`).
+
+3. **Redirección de Salida Estándar:**
+   - Redirigir la salida de un comando a un archivo (ejemplo: `ls -l > output.txt`).
+
+4. **Manejo de Errores con Redirección:**
+   - Redirección de errores (STDERR) al archivo (ejemplo: `ls -l /bin/usr > error.txt 2>&1`).
+   - Manejar errores y salida estándar por separado (ejemplo: `ls -l /bin/ > salida_error.txt 2>&1`).
+
+5. **Ejemplos Prácticos:**
+   - Demostración de redirección de salida y error en casos de éxito y fallo.
+   - Utilización de `less` para visualizar el contenido de archivos.
+
+6. **Uso de Números de Descriptores de Archivos:**
+   - 0: Entrada Estándar (STDIN).
+   - 1: Salida Estándar (STDOUT).
+   - 2: Error Estándar (STDERR).
+
+7. **Tuberías (Pipes):**
+   - Enviar salida de un comando como entrada a otro (`ls | wc -l`).
+   - Combinar salida y error usando tuberías (`ls /bin/usr > salida_error.txt 2>&1`).
+
+> ***Conclusión:***
+> - La redirección permite controlar la entrada, salida y errores de los comandos.
+> - Números de descriptores de archivos: 0 (entrada), 1 (salida), 2 (error).
+> - Tuberías facilitan el flujo de datos entre comandos.
+
 # 3. Working wit Git
 # 4. Graded Assessment
