@@ -22,5 +22,34 @@ DVCS: Mayor velocidad y rendimiento, funciona localmente, permite trabajar sin c
 > Ambos tipos de SCV tienen sus propias ventajas y desventajas. CVCS es considerado más fácil de aprender, mientras que DVCS ofrece mejor rendimiento y operación sin conexión. La elección depende de las necesidades específicas del equipo y el proyecto.
 
 # 2. Command Line
+## Tuberias
+
+1. **Listar y Cambiar de Directorio:**
+   - Comando `ls` muestra carpetas: `archivo` y `proyectos`.
+   - `cd` para cambiar a `archivo`.
+   - `ls` dentro de `archivo` revela `envios`.
+
+2. **Explorar Contenido de una Carpeta:**
+   - `cd envios` para ingresar a la carpeta.
+   - `ls` muestra `Archivo1.txt` y `archivo2.txt`.
+
+3. **Ver Contenido de un Archivo:**
+   - `cat Archivo1.txt` muestra el contenido.
+
+4. **Contar Palabras en un Archivo:**
+   - Comando `wc -w Archivo1.txt` devuelve 181 palabras.
+
+5. **Uso de Tuberías (Pipes):**
+   - `ls | wc -l` cuenta archivos en el directorio (resultado: 2).
+   - `cat Archivo1.txt | wc -w` cuenta palabras en Archivo1.txt.
+   
+6. **Tuberías con Múltiples Archivos:**
+   - `cat Archivo1.txt archivo2.txt | wc -w` cuenta palabras en ambos archivos (resultado: 362).
+
+> ***Observaciones:***
+- La tubería (`|`) permite pasar la salida de un comando como entrada a otro.
+- El comando `wc` con la bandera `-w` cuenta palabras.
+- Se pueden combinar comandos para realizar operaciones más complejas.
+  
 # 3. Working wit Git
 # 4. Graded Assessment
