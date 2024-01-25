@@ -87,5 +87,37 @@ DVCS: Mayor velocidad y rendimiento, funciona localmente, permite trabajar sin c
 > - Números de descriptores de archivos: 0 (entrada), 1 (salida), 2 (error).
 > - Tuberías facilitan el flujo de datos entre comandos.
 
+## Grep
+
+1. **Introducción a Grep:**
+   - **Grep:** Impresión global de expresiones regulares.
+   - Utilizado para buscar en archivos y carpetas, así como en el contenido de archivos.
+
+2. **Ejemplo Práctico:**
+   - Ejecución del comando `ls -l` para ver el archivo `nombres.txt`.
+   - Contenido de `nombres.txt`: Lista de nombres no ordenados alfabéticamente.
+
+3. **Búsqueda Estándar con Grep:**
+   - Búsqueda de nombres que comienzan con "Sam" mediante el comando `grep Sam nombres.txt`.
+   - Grep distingue entre mayúsculas y minúsculas.
+
+4. **Ignorar Diferencia entre Mayúsculas y Minúsculas:**
+   - Utilización de la bandera `-i` para ignorar distinción de mayúsculas/minúsculas (`grep -i Sam nombres.txt`).
+
+5. **Búsqueda de Coincidencia Exacta:**
+   - Uso de la bandera `-w` para buscar una coincidencia exacta (`grep -w Sam nombres.txt`).
+
+6. **Combinación de Comandos con Pipe:**
+   - Búsqueda de archivos ejecutables en el directorio `/bin` usando `ls /bin`.
+   - Uso de pipe (`|`) para filtrar resultados con Grep (ejemplo: `ls /bin | grep zip`).
+
+7. **Refinamiento de Búsquedas:**
+   - Aplicación de diferentes banderas para refinar resultados según coincidencia exacta, parcial, o ignorar distinción de mayúsculas/minúsculas.
+
+> ***Conclusión:***
+> - Grep es una herramienta poderosa para buscar patrones en archivos y directorios.
+> - Se pueden utilizar diferentes banderas para adaptar las búsquedas según las necesidades.
+> - La combinación de comandos con pipes permite realizar búsquedas más específicas.
+
 # 3. Working wit Git
 # 4. Graded Assessment
