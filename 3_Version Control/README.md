@@ -120,4 +120,138 @@ DVCS: Mayor velocidad y rendimiento, funciona localmente, permite trabajar sin c
 > - La combinación de comandos con pipes permite realizar búsquedas más específicas.
 
 # 3. Working wit Git
-# 4. Graded Assessment
+### Git show [document name]
+Esto muestra los últimos cambios hecho en los últimos commit para poder ver si se puede revertir algún causado.
+
+Cuando no le agregas un comentario a un commit, la consola te lo pide, al agregarlo, sale de esa parte con: esc+shift+zz
+Lo que me abre es un editor de código “VIN” en el mundo de la línea de comandos.
+
+### git diff [llave commit 1] [llave commit 2] 
+Esto nos muestra las diferencias entre 2 versiones de documentos que hemos hecho cambios.
+
+Staging: la memoria RAM. estado temporal de archivos que voy agregando, ahí voy poniendo la modificaciones antes del commit. Va entre directorio y repositorio.
+Untracked: no mapeado (sin el git add)
+Tracked: mapeado (con git add)
+
+### ¿Qué es branch y cómo funciona el Merge en Git?
+Branch (rama): Son líneas que se usan para hacer experimentos, cambios, solucionar conflictos o arreglar bugs. 
+En algún punto del branch, uno lo puede unir o fusionar (merch) para recuperar los mejor de ambas versiones.
+
+> NOTA:
+> Ramas experimentos: Branch Development
+> Rama de arreglo de bug: Hotfix
+
+- Git reset [codigo de commit]  --hard (para que se cambie definitivo)
+- Git reset [codigo de commit]  --soft (aun sigue en staging el cambio)
+
+- Git log --stat muestra estadísticas sobre los cambios en cada confirmación, incluyendo qué archivos fueron modificados y cuántas líneas fueron agregadas o eliminadas en cada uno. (Muy específico)
+
+- **Git checkout  [codigo de commit] [nombre de archivo]**: solo para chequear cómo era mi documento antes, pero si le hago un commit puede quedarse ahí como está [cuidado] (puedo aplicarlo para cuando hago cambios y no los he agregado al add y commit # GIT CHECKOUT [FILE NAME])
+
+- git checkout master [file name]: esto es para regresar a su estado original luego de hacerle el checkout de tipo anterior.
+
+"This is to revert to the original state after performing a 'checkout' of the same type as the previous one."
+
+- **git reset HEAD:** El comando git reset saca archivos del área de staging sin borrarlos ni realizar otras acciones. Esto impide que los últimos cambios en estos archivos se envíen al último commit. Podemos incluirlos de nuevo en staging con git add si cambiamos de opinión.
+
+Con este comando puedes cancelar los cambios que ya habías agregado, para que puedas revisarlos, modificarlos o deshacerlos antes de confirmarlos con un commit.
+
+- git rm --cached: esto para eliminar un archivo del área de staging, solo se queda en el directorio del disco duro.
+
+This is to remove a file from the staging area, leaving only the file in the hard disk directory.
+
+- Git commit --amend -m "Name of the new commit name" Esto es para cambiar el nombre del último commit hecho por si nos equivocamos
+
+- Git mv [file name] [new file name] esto es para cambiar de nombre algún archivo que tenga en mi directorio.
+
+This is to change the file name that I had in my directory.
+
+>NOTE:
+> “-” in english is “hyphen”
+> git commit --amend -m "Name of the new commit name"
+
+- git reflog: muestra un registro detallado de las referencias de Git en tu repositorio local, incluyendo información sobre las ramas, las cabezas (HEAD), y otros puntos de referencia importantes. La palabra "reflog" proviene de "registro de referencia".
+
+Show a detailist register of the git references in your local repository, including information from the branches, the heads and others points of main references.
+
+- git shortlog : Indica que commits ha realizado un usuario, mostrando el usuario y el titulo de sus commits.
+
+Indicates which commits it realized a user, showing the user and the title of the commit.
+
+- git log --after=“2018-1-2” ,
+- git log --after=“today” y
+- git log --after=“2018-1-2” --before=“today” Commits para localizar por fechas.
+
+- git log --author=“Name Author”
+Commits realizados por autor que cumplan exactamente con el nombre.
+
+- git branch [file new branch] esto se usa para crear una nueva rama, aquí solo hace copia del último commit que haya en la rama master.
+
+this is used to create a new branch, here it only makes a copy of the last commit in the master branch.
+
+- git checkout [branch name] esto sirve para moverse a la rama que estamos nombrando.
+
+this is used to move to the named branch.
+
+> NOTA:
+> Siempre debo crear una llave pública y privada por cada computadora que use para mis repositorios remotos.
+
+
+Para conectar mi repositorio local con un repositorio remoto, debo copiar este link:
+***Ejemplo:*** [https://github.com/trejazmine/Frontend-Training.git](https://github.com/trejazmine/Frontend-Training.git)
+para luego colocar este link en mi git con el siguiente código:
+git remote add origin [link de repositorio]
+
+Debido a la actualización, ahora la rama master es rama main. Para trabajar con ese nombre debo colocarse antes:
+
+- git pull origin main: trae una copia del main remoto hacia el local.
+- git push origin main: lleva una copia del main local para que se fusione con el remoto.
+
+
+>NOTA:
+>por si aparece esto:
+>fatal: refusing to merge unrelated histories
+>***¿QUÉ SIGNIFICA?*** Git indica que estás intentando fusionar dos historias (o líneas de tiempo) que Git considera no relacionadas. Este problema suele ocurrir cuando intentas realizar un git merge entre dos ramas que no comparten un ancestro común. Es decir, Git no puede automáticamente determinar cómo combinar las historias divergentes.
+
+poner esto:
+git pull origin main --allow-unrelated-histories
+(Si te abre un ventana de git, para salir poner:
+Esc + :q! + enter
+
+>NOTA: 
+>Siempre hacer primero un git pull y luego el git push, como buena práctica.
+
+Buen flujo de trabajo de git:
+Git pull →  add, commits → Git pull → git push
+
+- git log --all: to show all commits at the time.
+- git log --all --graph: te muestra de una manera visual las ramas o commits
+- git log --all --graph --decorate --oneline: te muestra todo más comprimido
+
+alias arbolito="git log --all --graph --decorate --oneline" ESTO ES PARA COLOCAR UN NOMBRE QUE YO QUIERO A CUALQUIER COMANDO DE GIT
+
+### Tags
+Este para añadir versiones de mi proyecto relacionadas a los commits que he hecho.
+git tag -a [nombre de tag (v0.1)] -m “mensaje de tag” [código de tag] 
+
+Para mostrar todos mis tags:
+git tag
+Para mostrar más detalles:
+git show-ref –tags
+
+Para mandar mis tags para mi github:
+git push origin --tags
+
+Para borrar un tag que no funca xd
+git tag -d [nombre de tag]
+
+Ahora, con esto no se borra de github, lo vamos a borrar de manera especial.
+
+git push origin :refs/tags/[nombre de tag]
+
+### Manejo de ramas en github:
+
+- git show-branch: esto para mostrar el historial de ramas.
+- git show-branch --all: da más detalles de las historias de las ramas.
+
+- gitk: un apoyo visual de las ramas y cambios.
