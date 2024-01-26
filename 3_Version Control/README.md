@@ -239,7 +239,6 @@ git tag -a [nombre de tag (v0.1)] -m “mensaje de tag” [código de tag]
 - Para mandar mis tags para mi github: git push origin --tags
 
 Ahora, con esto no se borra de github, lo vamos a borrar de manera especial.
-
 git push origin :refs/tags/[nombre de tag]
 
 ### Manejo de ramas en github:
