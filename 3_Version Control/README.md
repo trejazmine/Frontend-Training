@@ -234,16 +234,9 @@ alias arbolito="git log --all --graph --decorate --oneline" ESTO ES PARA COLOCAR
 Este para añadir versiones de mi proyecto relacionadas a los commits que he hecho.
 git tag -a [nombre de tag (v0.1)] -m “mensaje de tag” [código de tag] 
 
-Para mostrar todos mis tags:
-git tag
-Para mostrar más detalles:
-git show-ref –tags
-
-Para mandar mis tags para mi github:
-git push origin --tags
-
-Para borrar un tag que no funca xd
-git tag -d [nombre de tag]
+- Para mostrar todos mis tags: git tag
+- Para mostrar más detalles: git show-ref –tags
+- Para mandar mis tags para mi github: git push origin --tags
 
 Ahora, con esto no se borra de github, lo vamos a borrar de manera especial.
 
